@@ -11,11 +11,9 @@ body {
 
 header, nav, main, footer
     max-width: 425px;
-    min-width: 320px;
 }
 
-header {
-}
+header {}
 header h1 {}
 header img {}
 header .subheading {}
@@ -29,9 +27,6 @@ nav {
 nav button {}
 nav ul {
     display: none;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 nav ul li {}
 nav ul li a {}
@@ -52,12 +47,25 @@ nav .hamburger{
     text-align: center;
 }
 
-main {}
+main {
+    width: auto;
+}
 main h2 {
     font-family: montserrat, helvetica, sans-serif;
+    margin: 0;
     letter-spacing: 1px;
     color: #fff;
     font-size: 45px;
+}
+main h3 {
+    font-family: montserrat, helvetica, sans-serif;
+    margin: 0;
+    letter-spacing: .5px;
+    color: #5a92d2;
+    font-size: 25px;
+    padding-left: .75em;
+    padding-bottom: -50px;
+    padding-top: 25px;
 }
 main figure { margin: 0; width:100%; }
 main figure img {}
@@ -70,17 +78,37 @@ main figure img {}
 
 #city-name {
     position: absolute;
-    bottom: -35px;
+    bottom: 0;
     left: 20px;
 }
-section .weather-summery {
-    height: 100px;
+
+.clearfix {
+    overflow: auto;
+}
+
+section.weather-summary {
     position: relative;
     background-color: #fff;
-    margin: 2em;
+    margin: 3em;
+    margin-top: .1em;
+    padding 2em;
 }
-.weather-icon {
-    float: right;
+
+#weather-icon {
+    width: 200px;
+    padding: 2em;
+}
+
+h4 {
+    color: #d4413d;
+}
+
+.conditions {
+    position: right;
+}
+
+.forecast {
+    display: none;
 }
 
 footer {}
