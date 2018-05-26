@@ -1,7 +1,7 @@
 /* Delete these CSS comments after reading. */
 /* This main css file contains the default rules and is geared toward the small/phone view */
 
-* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+{ box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
 body {
     font-size: 16px;
@@ -44,11 +44,21 @@ nav .hamburger{
     height: 3px;
     background-color: #444444;
     margin: 3px 0;
-    text-align: center;
+}
+
+.top-border {
+    height: 25px;
+    width: 100%;
+    background-color: #5a92d2;
+}
+
+.top-border2 {
+    height: 10px;
+    width: 100%;
+    background-color: #d4413d;
 }
 
 main {
-    width: auto;
 }
 main h2 {
     font-family: montserrat, helvetica, sans-serif;
@@ -68,7 +78,8 @@ main h3 {
     padding-top: 25px;
 }
 main figure { margin: 0; width:100%; }
-main figure img {}
+
+main figure img {margin: 0; width:100%;}
 
 .city-container{
     position: relative;
@@ -111,4 +122,41 @@ h4 {
     display: none;
 }
 
-footer {}
+.article-heading{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#article-name {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    text-align: left;
+}
+
+article img {
+    margin: 0;
+    width: 100%;
+}
+
+.town-article {
+    margin: 2em;
+}
+
+.bottom-border2 {
+    height: 10px;
+    width: 100%;
+    background-color: #d4413d;
+}
+
+.bottom-border {
+    height: 25px;
+    width: 100%;
+    background-color: #5a92d2;
+}
+
+footer {
+    background-color: #fff;
+    padding: 2em;
+}
