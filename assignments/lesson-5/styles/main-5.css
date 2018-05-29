@@ -10,7 +10,7 @@ body {
 }
 
 header, nav, main, footer
-    max-width: 425px;
+    max-width: 600px;
 }
 
 header {}
