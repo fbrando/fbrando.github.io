@@ -6,8 +6,8 @@ body {
     background-color: #e6e6e6;
 }
 
-header, nav, main, footer
-max-width: 37.5em;
+header, nav, main, footer {
+max-width: 1200px;
 }
 
 header {
@@ -94,7 +94,7 @@ main h3 {
     color: #5a92d2;
     font-size: 25px;
     padding-left: .75em;
-    padding-bottom: -50px;
+    padding-bottom: 0;
     padding-top: 25px;
 }
 main figure { margin: 0; width:100%; }

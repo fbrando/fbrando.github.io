@@ -40,8 +40,30 @@
         padding: .8em 1em;
     }
 
+    section.forecast {
+        display: block;
+        padding: 1em;
+        margin: 3em;
+        margin-top: .2em;
+        background-color: #fff;
+    }
 
+    h3#tenDay {
+        display: block;
+    }
 
-    section.forecast { ______ }  /* show the 10-day forecast with the medium view and up */
+    th {
+        padding: 5px;
+        color: #555;
+    }
 
+    td {
+        padding: 5px;
+        color: #555;
+    }
+
+    /*main {
+        margin-left: 3em;
+        margin-right: 3em;
+    }*/
 }
