@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Franklin Weather | SunShower</title>
+        <meta name="description" content="weather and information for the city of Franklin">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/main-6.css">
+        <link rel="stylesheet" href="styles/medium-6.css">
+        <link rel="stylesheet" href="styles/large-6.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Roboto" rel="stylesheet">
+    </head>
+    <body>
+
+        <header>
+            <a href="#"><img src="images/sunshower%20logo-01.png" alt="sun shower logo"></a>
+        </header>
+
+        <nav class="clearfix">
+            <button onclick="toggleHam()">&#9776;</button>
+            <div class="top-border"></div>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Franklin</a></li>
+                <li><a href="#">Greenville</a></li>
+                <li><a href="#">Springfield</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+            <div class="top-border2"></div>
+        </nav>
+
+        <main>
+             <figure class="city-container">
+                    <img src="images/franklinBYUI-Large.jpg" alt="franklin city daytime" sizes="100vw" srcset="images/franklinBYUI-Small.jpg 500w, images/franklinBYUI-Medium.jpg 800w, images/franklinBYUI-Large.jpg 1200w">
+                 <h2 id="city-name">Franklin</h2>
+            </figure>
+
+            <h3>Weather Summary</h3>
+
+            <section class="weather-summary">
+                    <h4>Sunny</h4>
+                    <picture class="clearfix">
+                        <img id="weather-icon" src="images/sunny-icon_200x200-02.png" alt="sun icon">
+                    </picture>
+                <div class="highlow">
+                    <p>High: 78&deg;F</p>
+                    <p>Low: 56&deg;F</p>
+                    <p>Precipitation: 5% chance</p>
+                    <p>Wind Speed: 10mph</p>
+                </div>
+            </section>
+
+            <h3 id="tenDay">Ten Day Forecast</h3>
+
+            <section class="forecast">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day 1</th>
+                            <th>Day 2</th>
+                            <th>Day 3</th>
+                            <th>Day 4</th>
+                            <th>Day 5</th>
+                            <th>Day 6</th>
+                            <th>Day 7</th>
+                            <th>Day 8</th>
+                            <th>Day 9</th>
+                            <th>Day 10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>89&deg;F</td>
+                            <td>87&deg;F</td>
+                            <td>78&deg;F</td>
+                            <td>75&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>79&deg;F</td>
+                            <td>83&deg;F</td>
+                            <td>85&deg;F</td>
+                            <td>89&deg;F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <container class="article-heading">
+                <img src="images/Franklin_Large_1200.jpeg" alt="Franklin Blvd" sizes="100vw" srcset="images/Franklin_Small_500.jpeg 500w, images/Franklin_Medium_800.jpeg 800w, images/Franklin_Large_1200.jpeg 1200w,">
+                <h2 id="article-name">Franklin Breaks Record</h2>
+            </container>
+
+            <article>
+                <!--<h3>Franklin Breaks Record</h3>
+                <img src="">-->
+                <p class="town-article">
+                    Summer hasn’t technically begun, but Mother Nature sure didn’t get the memo.<br><br>
+
+                    Record-breaking heat embraced the Franklin area Thursday, with a 92-degree reading at Franklin Airport as of 3:30 p.m., breaking the 1913 record of 91 degrees.<br><br>
+
+                    “Usually you’d see these temperatures as you get into the dead of summer,” said Storm Team9 meteorologist Rory Johnson. “We’re just having this little heat wave early this year in May.”<br><br>
+
+                    The heat is set to persist into Friday, and could very well result in the area’s first official heat wave weeks before Memorial Day.<br><br>
+
+                    The temperature is expected to hover near 90 degrees on Friday, which would challenge the record highs of 90 at Franklin, set back in 2001.<br><br>
+
+                    (A heat wave is defined as 3 days in a row or more at 90 degrees or above.)<br><br>
+
+                    “The thing about Friday is we’re going to have a little more cloud cover,” Johnson said. “We’re still going to be in the low 90s, so that is going to be a close one.<br><br>
+
+                    The heat could cause health problems for some people.<br><br>
+
+                    If you’re longing for a return of spring, the good news is that the weather should be a bit cooler over the weekend and next week.<br><br>
+
+                    “By the weekend we’ll have a cold front that will move in through the area,” Johnson said. “That will bring a chance of showers and bring our temperatures back down to the 70s and then we stay in the 70s through next week.”<br><br>
+                </p>
+            </article>
+        </main>
+
+        <footer>
+            <section class="contact">
+                Contact information placeholder
+                999.999.9999
+                123 Main St. Anytown, US 99999
+                Google Map
+            </section>
+            <section class="footer-bar">&copy;2018 | All Rights Reserved | Site Title | <span id="currentdate"></span>
+            </section>
+        </footer>
+        <script src="js/hamburger.js"></script>
+        <script src="js/currentdate.js"></script>
+    </body>
+</html>

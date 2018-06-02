@@ -4,6 +4,14 @@
 
     nav .hamburger { display: none; }  /* hamburger button does not need to be shown in the medium on up views */
 
+    nav ul {
+        display: block;
+    }
+
+    nav ul li{
+        text-decoration: none;
+    }
+
     section.forecast {
         display: contents;
         padding: 2em;
