@@ -11,7 +11,7 @@ weekday[6] = "Saturday";
 
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-var n = weekday[d.getDay()];
+var n = weekday[d.getDay];
 var e = d.getDate();
 var m = months[d.getMonth()];
 var y = d.getFullYear();
