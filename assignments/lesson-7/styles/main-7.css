@@ -1,4 +1,6 @@
-* { box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-size: 16px;
@@ -6,32 +8,38 @@ body {
     background-color: #e6e6e6;
 }
 
-header, nav, main, footer {
-}
+header,
+nav,
+main,
+footer {}
 
 header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
 }
-header h1 {
-}
+
+header h1 {}
+
 header img {
     width: 220px;
-    float: left;
     padding: .7em;
     padding-left: .9em;
 }
+
 header .subheading {}
 
 nav {
     background-color: #fff;
     padding: 0;
 }
-nav button {
+
+header button {
     background: none;
     border: none;
     outline: none;
     color: #555;
     font-size: 1.8rem;
-    float: right;
     padding: .5em;
     padding-right: .75em;
 }
@@ -40,14 +48,12 @@ nav button {
     height: 25px;
     width: 100%;
     background-color: #5a92d2;
-    clear: left
 }
 
 .top-border2 {
     height: 10px;
     width: 100%;
     background-color: #d4413d;
-    clear: left;
 }
 
 nav ul {
@@ -55,22 +61,25 @@ nav ul {
     margin: 0;
     padding: 0;
     background-color: #5a92d2;
-    clear: right;
 
 }
+
 nav ul li {}
+
 nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
     color: #fff;
-    border-top: 2px solid rgba(0,0,0,.2);
+    border-top: 2px solid rgba(0, 0, 0, .2);
 }
+
 nav ul li.active a {
-    background-color: rgba(0,0,0,0.2)
+    background-color: rgba(0, 0, 0, 0.2)
 }
+
 nav ul li a:hover {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 nav ul.hide {
@@ -78,6 +87,25 @@ nav ul.hide {
 }
 
 main {}
+
+
+main.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px;
+    grid-row-gap: 10px;
+}
+
+main figure img {
+    box-shadow: 0px 6px 5px rgba(0,0,0,0.3);
+    width: 100%;
+}
+
+.gallery-grid figcaption {
+    padding-bottom: 25px;
+    margin-top: 8px;
+}
+
 main h2 {
     font-family: "montserrat", sans-serif;
     margin: 0;
@@ -87,7 +115,7 @@ main h2 {
 }
 
 main h3 {
-    font-family: montserrat, sans-serif;
+    font-family: "montserrat", sans-serif;
     margin: 0;
     letter-spacing: .5px;
     color: #5a92d2;
@@ -96,10 +124,18 @@ main h3 {
     padding-bottom: 0;
     padding-top: 25px;
 }
-main figure { margin: 0; width:100%; }
-main figure img { margin: 0; width: 100%; }
 
-.city-container{
+main figure {
+    margin: 0;
+    width: 100%;
+}
+
+main figure img {
+    margin: 0;
+    width: 100%;
+}
+
+.city-container {
     position: relative;
     text-align: center;
     color: white;
@@ -112,6 +148,10 @@ main figure img { margin: 0; width: 100%; }
 }
 
 section.weather-summary {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
     padding: 1em;
     margin: 3em;
     margin-top: .2em;
@@ -134,7 +174,7 @@ h4 {
     /*padding-left: 50px;*/
 }
 
-section.forecast{
+section.forecast {
     display: none;
 }
 
@@ -143,10 +183,11 @@ h3#tenDay {
 }
 
 .article-heading img {
-    margin: 0; width: 100%;
+    margin: 0;
+    width: 100%;
 }
 
-.article-heading{
+.article-heading {
     position: relative;
     text-align: center;
     color: white;

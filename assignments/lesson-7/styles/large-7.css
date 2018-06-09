@@ -3,4 +3,9 @@
         margin-right: 15%;
         margin-left: 15%;
     }
+
+    main.gallery-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+    }
 }
