@@ -88,7 +88,6 @@ nav ul.hide {
 
 main {}
 
-
 main.gallery-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -96,8 +95,8 @@ main.gallery-grid {
     grid-row-gap: 10px;
 }
 
-main figure img {
-    box-shadow: 0px 6px 5px rgba(0,0,0,0.3);
+.gallery-grid img {
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.3);
     width: 100%;
 }
 
