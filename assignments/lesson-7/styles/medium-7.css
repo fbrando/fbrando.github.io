@@ -85,6 +85,8 @@
     main.gallery-grid {
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 25px;
+        grid-row-gap: 25px;
+        margin: 25px 0 25px 0;
     }
 
     /*main {

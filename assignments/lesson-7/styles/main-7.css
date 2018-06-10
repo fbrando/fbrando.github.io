@@ -96,13 +96,15 @@ main.gallery-grid {
 }
 
 .gallery-grid img {
-    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.3);
+    /*box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.3);*/
     width: 100%;
+    margin: 0;
 }
-
+.gallery-grid figure {
+    background-color: #fff;
+}
 .gallery-grid figcaption {
-    padding-bottom: 25px;
-    margin-top: 8px;
+    padding: 10px;
 }
 
 main h2 {
