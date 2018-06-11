@@ -22,6 +22,13 @@ h2 {
     font-size: 35px;
 }
 
+p {
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #262626;
+    margin-top: 5px;
+}
 img {
     margin: 25px;
 }
@@ -29,6 +36,19 @@ img {
 main {
     margin-right: 25px;
 }
+
+section.refs {
+    margin: 25px;
+}
+
+section.refs a {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #06AED5;
+    text-align: left;
+}
+
+/* Rules Table */
 
 table {
     margin-left: 25px;
@@ -47,6 +67,8 @@ th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+/*Animation Examples*/
 
 div#zero {
     width: 100px;
@@ -132,6 +154,7 @@ div#three {
     height: 100px;
     background-color: #ED3300;
     margin: 30px;
+    margin-bottom: 5px;
 }
 
 div#three:hover {
@@ -204,13 +227,3 @@ div#five {
     }
 }
 
-section.refs {
-    margin: 25px;
-}
-
-section.refs a {
-    font-family: sans-serif;
-    font-size: 20px;
-    color: #06AED5;
-    text-align: left;
-}
