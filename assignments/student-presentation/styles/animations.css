@@ -48,6 +48,30 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
+div#zero {
+    width: 100px;
+    height: 100px;
+    background-color: #ED7A07;
+    margin: 25px;
+    animation-name: square-zero;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+}
+
+@keyframes square-zero {
+    from {
+        background-color: #06AED5;
+    }
+    to {
+        background-color: #ED3300;
+    }
+}
+
+
+
 div#one {
     position: relative;
     width: 100px;
@@ -65,12 +89,10 @@ div#one {
         background-color: #ED7A07;
         left: 30px;
         border-radius: 0%;
-        transform: rotate(0deg);
     }
     to {
         background-color: #06AED5;
         left: 300px;
-        transform: rotate(90deg);
         border-radius: 50%;
     }
 }
@@ -159,7 +181,7 @@ div#four {
     }
     70% {
         transform: scale(1);
-        animation-timin g-function: ease-in;
+        animation-timing-function: ease-in;
     }
 }
 
@@ -170,7 +192,7 @@ div#five {
     height: 106px;
     border: 5px dashed #262626;
     border-radius: 50%;
-    animation: five 5s infinite linear
+    animation: five 5s infinite linear;
 }
 
 @keyframes five {
@@ -181,9 +203,11 @@ div#five {
         transform: rotate(360deg);
     }
 }
-section.refs{
+
+section.refs {
     margin: 25px;
 }
+
 section.refs a {
     font-family: sans-serif;
     font-size: 20px;
