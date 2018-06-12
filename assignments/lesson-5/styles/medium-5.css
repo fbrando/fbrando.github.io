@@ -1,14 +1,14 @@
 @media only screen and (min-width: 600px) {
 
-    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
-
-    nav .hamburger { display: none; }  /* hamburger button does not need to be shown in the medium on up views */
+    nav .hamburger {
+        display: none;
+    }
 
     nav ul {
         display: block;
     }
 
-    nav ul li{
+    nav ul li {
         text-decoration: none;
     }
 
@@ -16,8 +16,4 @@
         display: contents;
         padding: 2em;
     }
-
-    main {
-        margin-left: 3em;
-        margin-right: 3em;
-    }
+}
