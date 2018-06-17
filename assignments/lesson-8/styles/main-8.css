@@ -1,0 +1,291 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: roboto, sans-serif;
+    background-color: #e6e6e6;
+}
+
+header,
+nav,
+main,
+footer {}
+
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {}
+
+header img {
+    width: 220px;
+    padding: .7em;
+    padding-left: .9em;
+}
+
+header .subheading {}
+
+nav {
+    background-color: #fff;
+    padding: 0;
+}
+
+header button {
+    background: none;
+    border: none;
+    outline: none;
+    color: #555;
+    font-size: 1.8rem;
+    padding: .5em;
+    padding-right: .75em;
+}
+
+.top-border {
+    height: 25px;
+    width: 100%;
+    background-color: #5a92d2;
+}
+
+.top-border2 {
+    height: 10px;
+    width: 100%;
+    background-color: #d4413d;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #5a92d2;
+
+}
+
+nav ul li {}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #fff;
+    border-top: 2px solid rgba(0, 0, 0, .2);
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+main {}
+
+/*---------- FORM -----------*/
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,.05);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    color: #fff;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+
+main.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px;
+    grid-row-gap: 10px;
+}
+
+.gallery-grid img {
+    /*box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.3);*/
+    width: 100%;
+    margin: 0;
+}
+.gallery-grid figure {
+    background-color: #fff;
+}
+.gallery-grid figcaption {
+    padding: 10px;
+}
+
+main h2 {
+    font-family: "montserrat", sans-serif;
+    margin: 0;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 35px;
+}
+
+main h3 {
+    font-family: "montserrat", sans-serif;
+    margin: 0;
+    letter-spacing: .5px;
+    color: #5a92d2;
+    font-size: 25px;
+    padding-left: .75em;
+    padding-bottom: 0;
+    padding-top: 25px;
+}
+
+main figure {
+    margin: 0;
+    width: 100%;
+}
+
+main figure img {
+    margin: 0;
+    width: 100%;
+}
+
+.city-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#city-name {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+section.weather-summary {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+    margin: 3em;
+    margin-top: .2em;
+    background-color: #fff;
+}
+
+section.weather-summary img {
+    float: left;
+    margin: 20px;
+}
+
+.highlow {
+    color: #555;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 0;
+    color: #d4413d;
+    /*padding-left: 50px;*/
+}
+
+section.forecast {
+    display: none;
+}
+
+h3#tenDay {
+    display: none;
+}
+
+.article-heading img {
+    margin: 0;
+    width: 100%;
+}
+
+.article-heading {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#article-name {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    text-align: left;
+}
+
+.town-article {
+    margin: 3em;
+    color: #555;
+}
+
+.bottom-border2 {
+    height: 10px;
+    width: 100%;
+    background-color: #d4413d;
+}
+
+.bottom-border {
+    height: 25px;
+    width: 100%;
+    background-color: #5a92d2;
+}
+
+footer {
+    background-color: #fff;
+    padding: 2em;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
