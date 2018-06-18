@@ -35,16 +35,20 @@
     <main>
         <form method="get" action="thanks.html">
 
+            <h3>Contact Information</h3>
+
             <fieldset>
-                <legend>Contact Information</legend>
+<!--                <legend>Contact Information</legend>-->
                 <label class="top">Full Name* <input type="text" name="name" pattern="[a-zA-Z ]+" minlength="5" required></label>
-                <label class="top">Email <input type="email" name="email" placeholder="john123@gmail.com" required></label>
+                <label class="top">Email <input type="email" name="email" placeholder="john123@gmail.com"></label>
                 <label class="top">Phone* <input type="tel" name="phone" required></label>
                 <label class="top">Zip Code* <input type="number" name="zip" required></label>
             </fieldset>
 
+            <h3>Storm Information</h3>
+
             <fieldset>
-                <legend>Storm Information</legend>
+<!--                <legend>Storm Information</legend>-->
                 <label class="top">Storm Date<input type="date" name="stormdate"></label>
 
                 <label class="top">Storm Type<input list="storms" name="stormtype"></label>
@@ -56,7 +60,7 @@
                     <option value="Tornado">
                 </datalist>
 
-                <label class="severity">Storm Severity(1-10)<input type="range" id="severity" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"></label>
+                <label class="severity">Storm Severity(1-10)<br><input type="range" id="severity" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"></label>
                 <span id="ratingvalue">5</span><br>
 
                 <label class="top">Storm Region
@@ -72,8 +76,8 @@
                 <label class="sbs"><input type="radio" name="danger" value="maybe">Maybe</label>
                 <label class="sbs"><input type="radio" name="danger" value="no">No</label>
 
-
-                <label class="top">Comments<textarea name="message" rows="10" cols="50">Additional information or comments.
+                <div>Comments</div>
+                <label><textarea name="message" rows="10" cols="50">Additional information or comments.
                     </textarea></label>
 
             </fieldset>
