@@ -42,14 +42,16 @@
         <section class="weather-summary">
 
             <picture class="clearfix">
-                <img id="weather-icon" src="images/sunny-icon_200x200-02.png" alt="sun icon">
+                    <div id="weather-icon" alt="current weather icon"></div>
+<!--                <img id="weather-icon" src="images/sunny-icon_200x200-02.png" alt="sun icon">-->
             </picture>
             <div class="highlow">
-                <h4>Sunny</h4>
-                <p>High: <span id="high">78</span>&deg;F</p>
-                <p>Low: <span id="low">56</span>&deg;F</p>
-                <p>Precipitation: 5% chance</p>
-                <p>Wind Speed: <span id="wind-speed">10</span>mph</p>
+                <h4><span id="weather-condition"></span></h4>
+                <p>Current Temperature: <span id="current"></span>&deg;F</p>
+<!--                <p>Current Weather: <span id="weather-condition"></span></p>-->
+                <p>High: <span id="high"></span>&deg;F</p>
+                <p>Low: <span id="low"></span>&deg;F</p>
+                <p>Wind Speed: <span id="wind-speed"></span>mph</p>
                 <p>Wind Chill: <span id="windchill"></span></p>
             </div>
         </section>
@@ -106,7 +108,8 @@
     <div class="bottom-border"></div>
     <footer>
         <section class="contact">
-            Contact information placeholder 999.999.9999 123 Main St. Anytown, US 99999 Google Map
+            Contact information placeholder<br>999.999.9999<br>123 Main St. Anytown, US 99999 Google Map<br>
+            weather provided by <a href="https://openweathermap.org/">OpenWeatherMap.org</a>
         </section>
         <section class="footer-bar">&copy;2018 | All Rights Reserved | Site Title | <span id="currentdate"></span>
         </section>
@@ -114,5 +117,6 @@
     <script src="js/hamburger.js"></script>
     <script src="js/currentdate.js"></script>
     <script src="js/windchill.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>

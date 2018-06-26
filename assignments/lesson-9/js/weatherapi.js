@@ -13,3 +13,5 @@ weatherRequest.onload = function () {
 
     document.getElementById("current-temp").innerHTML = " " + current;
 }
+
+
