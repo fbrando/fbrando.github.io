@@ -1,0 +1,32 @@
+{
+    "coord": {},
+    "weather": [],
+    "base": "stations",
+    "main": {
+        "temp": 80.6,
+        "pressure": 1014,
+        "humidity": 88,
+        "temp_min": 80.6,
+        "temp_max": 80.6
+    },
+    "visibility": 16093,
+    "wind": {
+        "speed": 4.7,
+        "deg": 270
+    },
+    "clouds": {
+        "all": 1
+    },
+    "dt": 1529635980,
+    "sys": {
+        "type": 1,
+        "id": 638,
+        "message": 0.004,
+        "country": "US",
+        "sunrise": 1529663952,
+        "sunset": 1529714596
+    },
+    "id": 4156210,
+    "name": "Franklin County",
+    "cod": 200
+}
