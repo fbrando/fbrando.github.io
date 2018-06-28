@@ -13,8 +13,8 @@ weatherRequest.onload = function () {
     var high = weatherData.main['temp_max'];
     var low = weatherData.main['temp_min'];
     var windSpeed = weatherData.wind['speed'];
-    var description = weatherData.weather['description'];
-    var icon =("<img src='http://openweathermap.org/img/w/" + weatherData.weather[icon] + ".png'>");
+    var description = weatherData.weather[0]['description'];
+    var icon =("<img src='http://openweathermap.org/img/w/" + weatherData.weather[0]['icon'] + ".png'>");
 
     document.getElementById("current").innerHTML = Math.round(current,10);
     document.getElementById("high").innerHTML = Math.round(high,10);
