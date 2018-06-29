@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Franklin Weather | SunShower</title>
-    <meta name="description" content="weather and information for the city of Franklin">
+    <title>Storm Center | SunShower</title>
+    <meta name="description" content="Storm information input">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/main-9.css">
-    <link rel="stylesheet" href="styles/medium-9.css">
-    <link rel="stylesheet" href="styles/large-9.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
@@ -27,7 +27,7 @@
             <h3>Contact Information</h3>
 
             <fieldset>
-<!--                <legend>Contact Information</legend>-->
+                <!--                <legend>Contact Information</legend>-->
                 <label class="top">Full Name* <input type="text" name="name" pattern="[a-zA-Z ]+" minlength="5" required></label>
                 <label class="top">Email <input type="email" name="email" placeholder="john123@gmail.com"></label>
                 <label class="top">Phone* <input type="tel" name="phone" required></label>
@@ -37,7 +37,7 @@
             <h3>Storm Information</h3>
 
             <fieldset>
-<!--                <legend>Storm Information</legend>-->
+                <!--                <legend>Storm Information</legend>-->
                 <label class="top">Storm Date<input type="date" name="stormdate"></label>
 
                 <label class="top">Storm Type<input list="storms" name="stormtype"></label>
@@ -54,7 +54,7 @@
 
                 <label class="top">Storm Region
                     <select name="region">
-                        <option>Please Select &#9662;</option>
+                        <option selected="true" disabled="disabled">Please Select &#9662;</option>
                         <option value="franklin">Franklin</option>
                         <option value="greenville">Greenville</option>
                         <option value="springfield">Springfield</option>
