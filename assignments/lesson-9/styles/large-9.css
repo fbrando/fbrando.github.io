@@ -1,5 +1,5 @@
 @media only screen and (min-width: 64em) {
-    main {
+    main, footer{
         padding-left: 13%;
         padding-right: 13%;
     }
@@ -14,5 +14,13 @@
 
     main.gallery-grid figure:hover {
         box-shadow: 6px 6px 4px rgba(0,0,0,.3);
+    }
+
+    .home-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .city-summary:hover {
+        box-shadow: 5px 5px 8px rgba(0,0,0,0.2);
     }
 }

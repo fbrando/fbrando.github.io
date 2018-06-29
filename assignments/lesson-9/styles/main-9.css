@@ -307,12 +307,24 @@ h3#tenDay {
     grid-row-gap: 10px;
 }
 
+.home-grid a{
+    text-decoration: none;
+}
+
 .home-grid img {
     width: 100%;
 }
 
 .home-grid article {
     background-color: #fff;
+}
+
+.home-grid h3 {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
 
 .city-summary {

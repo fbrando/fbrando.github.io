@@ -88,14 +88,24 @@
         grid-row-gap: 25px;
         margin: 25px 0 25px 0;
     }
-    
+
     .home-grid {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-column-gap: 25px;
         grid-row-gap: 25px;
         margin: 25px 0 25px 0;
     }
 
+    footer {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+    }
+
+    .footer-bar{
+        margin: 2em;
+        text-align: right;
+    }
     /*main {
         margin-left: 3em;
         margin-right: 3em;
