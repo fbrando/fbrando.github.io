@@ -15,7 +15,7 @@ function include() {
                 }
 
             }
-            xhttp.open('GET', 'franklin/' + file, true); // matching file names in includes folder
+            xhttp.open('GET', '/assignments/weathersite/' + file, true); // matching file names in includes folder
             xhttp.send();
             return;
 
