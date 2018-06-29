@@ -15,21 +15,10 @@
 </head>
 
 <body>
-    <header>
-        <a href="/assignments/lesson-9/index.html"><img src="images/sunshower%20logo-01.png" alt="sun shower logo"></a>
-        <button onclick="toggleHam()">&#9776;</button>
+    <header includefile="header.html">
     </header>
 
-    <nav>
-        <div class="top-border"></div>
-        <ul id="primaryNav" class="hide">
-            <li><a href="/assignments/lesson-9/index.html">Home</a></li>
-            <li><a href="/assignments/lesson-9/franklin-9.html">Franklin</a></li>
-            <li><a href="#">Greenville</a></li>
-            <li><a href="#">Springfield</a></li>
-            <li class="active"><a href="/assignments/lesson-9/stormcenter.html">Storm Center</a></li>
-            <li><a href="/assignments/lesson-9/gallery-9.html">Gallery</a></li>
-        </ul>
+    <nav includefile="nav.html">
     </nav>
     <div class="top-border2"></div>
     <main>
@@ -88,20 +77,13 @@
     </main>
     <div class="bottom-border2"></div>
     <div class="bottom-border"></div>
-    <footer>
-        <section class="contact">
-            999.999.9999<br>
-            123 Main St.<br>
-            Anytown, US 99999<br>
-            Google Map
-        </section>
-        <section class="footer-bar">&copy;2018 | All Rights Reserved | Site Title | <span id="currentdate"></span>
-        </section>
+    <footer includefile="footer.html">
     </footer>
     <script src="js/hamburger.js"></script>
     <script src="js/currentdate.js"></script>
     <script src="js/windchill.js"></script>
     <script src="js/severity.js"></script>
+    <script src="js/include.js"></script>
 </body>
 
 </html>
