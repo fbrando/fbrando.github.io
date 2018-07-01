@@ -319,7 +319,7 @@ h3#tenDay {
     width: 100%;
 }
 
-.home-grid article h {
+.home-grid article {
     background-color: #fff;
 }
 
@@ -340,7 +340,7 @@ h3#tenDay {
 }
 
 .city-summary span {
-    font-size: 20px;
+    font-size: 18px;
     color: #555;
 }
 
