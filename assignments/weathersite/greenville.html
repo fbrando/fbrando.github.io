@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Greenville Weather | SunShower</title>
+        <meta name="description" content="Greenville weather and information">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+
+    <body>
+        <header includefile="header.html">
+        </header>
+
+        <nav includefile="nav.html">
+        </nav>
+        <div class="top-border2"></div>
+        <main>
+            <figure class="city-container">
+                <img src="images/City_Pictures.jpg" alt="Pathway lined with trees" sizes="100vw" srcset="images/City_Pictures@0,3x.jpg 500w, images/City_Pictures@0,5x.jpg 800w, images/City_Pictures.jpg 1200w" >
+                <h2 id="city-name">Greenville</h2>
+            </figure>
+
+            <h3>Weather Summary</h3>
+
+            <section class="weather-summary">
+
+                <picture class="clearfix">
+                    <div id="weather-icon" alt="current weather icon"></div>
+                </picture>
+                <div class="highlow">
+                    <h4><span id="weather-condition"></span></h4>
+                    <p>Current Temperature: <span id="current"></span>&deg;F</p>
+                    <p>High: <span id="high"></span>&deg;F</p>
+                    <p>Low: <span id="low"></span>&deg;F</p>
+                    <p>Wind Speed: <span id="wind-speed"></span>mph</p>
+                    <p>Wind Chill: <span id="windchill"></span></p>
+                </div>
+            </section>
+
+            <h3 id="tenDay">Ten Day Forecast</h3>
+
+            <section class="forecast">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day 1</th>
+                            <th>Day 2</th>
+                            <th>Day 3</th>
+                            <th>Day 4</th>
+                            <th>Day 5</th>
+                            <th>Day 6</th>
+                            <th>Day 7</th>
+                            <th>Day 8</th>
+                            <th>Day 9</th>
+                            <th>Day 10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>89&deg;F</td>
+                            <td>87&deg;F</td>
+                            <td>78&deg;F</td>
+                            <td>75&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>79&deg;F</td>
+                            <td>83&deg;F</td>
+                            <td>85&deg;F</td>
+                            <td>89&deg;F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="article-heading">
+                <img src="images/City_Pictures_Rain.jpg" alt="Franklin Blvd" sizes="100vw" srcset="images/City_Pictures_Rain@0,3x.jpg 500w, images/City_Pictures_Rain@0,5x.jpg 800w, images/City_Pictures_Rain.jpg 1200w">
+                <h2 id="article-name">Needed Rain in Greenville</h2>
+            </section>
+
+            <article>
+                <!--<h3>Franklin Breaks Record</h3>
+<img src="">-->
+                <p class="town-article">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Curabitur vitae nunc sed velit dignissim sodales ut eu. Integer eget aliquet nibh praesent tristique. Sed felis eget velit aliquet sagittis id consectetur purus. Imperdiet nulla malesuada pellentesque elit.<br><br> Turpis massa sed elementum tempus egestas sed sed risus. Integer eget aliquet nibh praesent tristique magna sit. Adipiscing elit duis tristique sollicitudin nibh sit. Ultricies lacus sed turpis tincidunt id aliquet. Risus ultricies tristique nulla aliquet enim tortor at auctor. Morbi leo urna molestie at. Tortor at risus viverra adipiscing at in tellus integer feugiat. Pharetra pharetra massa massa ultricies mi quis hendrerit. At varius vel pharetra vel turpis nunc eget lorem. Volutpat sed cras ornare arcu dui vivamus arcu.<br><br>
+                    Ipsum consequat nisl vel pretium lectus quam id leo. Massa placerat duis ultricies lacus sed turpis tincidunt. Felis eget velit aliquet sagittis. Lorem ipsum dolor sit amet consectetur. In egestas erat imperdiet sed. Nulla at volutpat diam ut venenatis tellus in metus vulputate. Et pharetra pharetra massa massa ultricies mi quis hendrerit. Iaculis eu non diam phasellus vestibulum lorem sed risus ultricies.<br><br> Magna ac placerat vestibulum lectus mauris ultrices eros. Et molestie ac feugiat sed lectus. Vitae auctor eu augue ut. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Mi proin sed libero enim sed faucibus turpis in. Venenatis tellus in metus vulputate eu scelerisque felis. Enim sed faucibus turpis in eu mi bibendum. Quis blandit turpis cursus in. Elit eget gravida cum sociis natoque. Sollicitudin ac orci phasellus egestas tellus rutrum.
+
+                </p>
+            </article>
+        </main>
+        <div class="bottom-border2"></div>
+        <div class="bottom-border"></div>
+        <footer includefile="footer.html">
+        </footer>
+        <script src="js/hamburger.js"></script>
+        <script src="js/currentdate.js"></script>
+        <script src="js/weather_g.js"></script>
+        <script src="js/windchill.js"></script>
+        <script src="js/include.js"></script>
+    </body>
+</html>
