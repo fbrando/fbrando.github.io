@@ -1,0 +1,31 @@
+@media only screen and (min-width: 37.5em) {
+    #cta {
+        font-size: 11vw;
+    }
+
+    h1 {
+        top: 7%;
+    }
+
+    .adventures-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 50px;
+        margin: 25px 10% 25px 10%;
+    }
+
+    footer div {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    footer {
+        flex-flow: row;
+        align-content: flex-start;
+        padding: 3%;
+    }
+    footer #socialmedia {
+        margin-top: 0;
+    }
+
+}

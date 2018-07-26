@@ -1,0 +1,50 @@
+@media only screen and (min-width: 64em) {
+
+    #cta {
+        font-size: 9vw;
+    }
+
+    h1 {
+        top: 13%;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 2%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    container {
+        display: none;
+    }
+
+    nav {
+        background-color: #ffad00;
+    }
+
+    nav ul.hide {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        padding-left: 10px;
+    }
+
+    nav ul {
+        width: 100%;
+        padding-left: 2%;
+    }
+
+    nav ul li {
+        background-color: #ffad00;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 2px solid rgba(0, 0, 0, .2);
+        padding: .8em 1em;
+    }
+
+
+}
