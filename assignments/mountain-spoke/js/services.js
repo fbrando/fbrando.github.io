@@ -1,43 +1,23 @@
 var serviceRequest = new XMLHttpRequest();
-var apiURL = '';
+var apiURL = 'https://fbrando.github.io/assignments/mountain-spoke/js/services.json';
 serviceRequest.open('GET', apiURL, true);
 serviceRequest.responseText = 'text';
 serviceRequest.send();
 
-weatherRequest.onload = function () {
-    var weatherData = JSON.parse(weatherRequest.responseText);
+serviceRequest.onload = function () {
+    var serviceData = JSON.parse(serviceRequest.responseText);
 
 
-    var franklinMotto = weatherData.towns[0].motto;
-    var greenvilleMotto = weatherData.towns[1].motto;
-    var springfieldMotto = weatherData.towns[3].motto;
-
-    var franklinYear = weatherData.towns[0].yearFounded;
-    var greenvilleYear = weatherData.towns[1].yearFounded;
-    var springfieldYear = weatherData.towns[3].yearFounded;
-
-    var franklinPopulation = weatherData.towns[0].currentPopulation;
-    var greenvillePopulation = weatherData.towns[1].currentPopulation;
-    var springfieldPopulation = weatherData.towns[3].currentPopulation;
-
-    var franklinRainfall = weatherData.towns[0].averageRainfall;
-    var greenvilleRainfall = weatherData.towns[1].averageRainfall;
-    var springfieldRainfall = weatherData.towns[3].averageRainfall;
+    var basicType = serviceData.service[0].price;
+    var deluxeType = serviceData.service[1].type;
+    var premiumType = serviceData.service[0].type;
+    var proType = serviceData.service[3].type;
+    var newType = serviceData.service[4].type;
 
 
-    document.getElementById("franklin-motto").innerHTML = franklinMotto;
-    document.getElementById("greenville-motto").innerHTML = greenvilleMotto;
-    document.getElementById("springfield-motto").innerHTML = springfieldMotto;
-
-    document.getElementById("franklin-year").innerHTML = franklinYear;
-    document.getElementById("greenville-year").innerHTML = greenvilleYear;
-    document.getElementById("springfield-year").innerHTML = springfieldYear;
-
-    document.getElementById("franklin-population").innerHTML = franklinPopulation;
-    document.getElementById("greenville-population").innerHTML = greenvillePopulation;
-    document.getElementById("springfield-population").innerHTML = springfieldPopulation;
-
-    document.getElementById("franklin-rainfall").innerHTML = franklinRainfall;
-    document.getElementById("greenville-rainfall").innerHTML = greenvilleRainfall;
-    document.getElementById("springfield-rainfall").innerHTML = springfieldRainfall;
+    document.getElementById("basic").innerHTML = "basicType";
+    document.getElementById("deluxe").innerHTML = deluxeType;
+    document.getElementById("premium").innerHTML = 5;
+    document.getElementById("pro").innerHTML = proType;
+    document.getElementById("new").innerHTML = newType;
 }
