@@ -7,12 +7,24 @@
         top: 7%;
     }
 
+    #services {
+        max-width: 60%;
+    }
+
     .adventures-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 50px;
         margin: 25px 10% 25px 10%;
     }
+
+    .bikes-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 50px;
+        margin: 25px 10% 25px 10%;
+    }
+
 
     footer div {
         margin-top: auto;

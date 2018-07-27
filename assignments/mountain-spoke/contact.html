@@ -1,62 +1,64 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Adventures | The Mountain Spoke</title>
-        <meta name="description" content="All of your mountain biking needs and information in Bozeman Montana">
-        <link rel="stylesheet" href="css/large.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/medium.css">
-        <link rel="stylesheet" href="css/large.css">
-        <link href="https://fonts.googleapis.com/css?family=Maven+Pro:700|Source+Sans+Pro:200,400,700" rel="stylesheet">
-    </head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adventures | The Mountain Spoke</title>
+    <meta name="description" content="All of your mountain biking needs and information in Bozeman Montana">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:700|Source+Sans+Pro:200,400,700" rel="stylesheet">
+</head>
 
-    <body>
-        <h1>ADVENTURES</h1>
-        <header includefile="header.html">
-        </header>
+<body>
+    <h1>CONTACT</h1>
+    <header includefile="header.html">
+    </header>
 
-        <nav>
-            <ul id="primaryNav" class="hide">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="adventures.html">Adventures</a></li>
-                <li><a href="bikes.html">Bikes</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li class="active"><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <nav>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="adventures.html">Adventures</a></li>
+            <li><a href="bikes.html">Bikes</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-        <main class="adventures-grid">
-            <div>
-                <img class="adventures" src="images/150814-Bangtail-128-1080x720.jpg" alt="mountain biker on Bangtail Trail" sizes="100vw" srcset="images/150814-Bangtail-128-1080x720@0,5x.jpg 500w, images/150814-Bangtail-128-1080x720@0,75x.jpg 800w, images/150814-Bangtail-128-1080x720.jpg 1200w">
-                <h3>Bangtail Divide</h3>
-                <p>
-                    <emphasis>Length:</emphasis> 12 miles<br>
-                    <emphasis>Duration:</emphasis> 3 to 5 hours (one-way)<br>
-                    <emphasis>Difficulty:</emphasis> Easy - Moderate<br>
-                </p>
-                <p>Built in 2003, the Bangtail Divide Trail (BDT) quickly became the local go-to trail for those looking for a long ride without a long drive. The BDT offers easy access to a ridgeline traverse with stellar views of multiple mountain ranges, fields of wildflowers and well-crafted singletrack sections guaranteed to satisfy.</p>
-            </div>
-            <div>
-                <img class="adventures" src="images/p6pb14894793@0,75x.jpg" alt="mountain biker on Bangtail Trail" sizes="100vw" srcset="images/p6pb14894793@0,25x.jpg 500w, images/p6pb14894793@0,5x.jpg 800w, images/p6pb14894793@0,75x.jpg 1200w">
-                <h3>Shafthouse</h3>
-                <p>
-                    <emphasis>Length:</emphasis> 8.88 miles<br>
-                    <emphasis>Duration:</emphasis> 2 hours (one-way)<br>
-                    <emphasis>Difficulty:</emphasis> Advanced<br>
-                </p>
-                <p>Featuring incredible vistas of the Northern Bridger Range, Shafthouse is a must for those seeking an exhilarating ride with amazing views. The initial steep ascent is a small price to pay for the following 2,000-foot descent on this Bozeman classic.</p>
-            </div>
+    <main class="contact-grid">
+        <div id="contact">
 
-        </main>
+        </div>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.9316277662188!2d-111.0929115485055!3d45.67227287900126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!5e0!3m2!1sen!2sus!4v1532644018655" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <form method="get" action="thanks.html">
 
-        <footer includefile="footer.html">
-        </footer>
-        <script src="js/active.js"></script>
-        <script src="js/include.js"></script>
-        <script src="js/hamburger.js"></script>
-        <script src="js/ham_animate.js"></script>
-    </body>
+            <h3>Contact Us</h3>
+
+            <fieldset>
+                <label class="top">Full Name* <input type="text" name="name" pattern="[a-zA-Z ]+" minlength="5" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="john123@gmail.com" required></label>
+                <label class="top">Phone (optional) <input type="tel" name="phone"></label>
+                <p id="comments">Message*</p>
+                <label id="textarea"><textarea name="message" rows="10" cols="50"  placeholder="Contact us about tours, products, events, services or whatever you feel like talking to us about."></textarea></label>
+
+            </fieldset>
+
+            <input type="submit" value="Send Message" class="submitBtn">
+
+        </form>
+
+    </main>
+
+    <footer includefile="footer.html">
+    </footer>
+    <script src="js/active.js"></script>
+    <script src="js/include.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/ham_animate.js"></script>
+</body>
 </html>

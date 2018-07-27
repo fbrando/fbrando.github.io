@@ -8,7 +8,7 @@
         {
             "type": "Deluxe",
             "price": "$70",
-            "description": "-Includes Basic Tune -Adjust All Bearings -Full True Wheels -Lube Cables -Resurface Brake Pads"
+            "description": "Includes Basic Tune, Adjust All Bearings, Full True Wheels, Lube Cables, Resurface Brake Pads"
         },
         {
             "type": "Premium",
@@ -18,12 +18,12 @@
         {
             "type": "Pro Overhaul",
             "price": "$200",
-            "description": "-Includes Premium Tune -Inspect All Parts for Wear -Bleed Brakes -Wrap Bars -Replace Cables and Housing -Overhaul All Bearings -Replace Tires and Tubes"
+            "description": "Includes Premium Tune, Inspect All Parts for Wear, Bleed Brakes, Wrap Bars, Replace Cables and Housing, Overhaul All Bearings, Replace Tires and Tubes"
         },
         {
             "type": "New Bike Assembly",
             "price": "$70",
-            "description": "-Unbox and Assemble Bike -Torque All Bolts -Includes Basic Tune"
+            "description": "Unbox and Assemble Bike, Torque All Bolts, Includes Basic Tune"
         }
     ]
 }

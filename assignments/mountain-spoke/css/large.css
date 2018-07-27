@@ -46,5 +46,13 @@
         padding: .8em 1em;
     }
 
+    #services {
+        max-width: 40%;
+    }
+
+    .bikes-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
 
 }
