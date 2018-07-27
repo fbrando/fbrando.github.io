@@ -317,11 +317,11 @@ a:link {
 }
 
 a:visited {
-    color: #4d4d4d;
+    color: #fff;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 #route-grid {

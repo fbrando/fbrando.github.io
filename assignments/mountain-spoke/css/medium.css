@@ -35,14 +35,17 @@
         flex-flow: row;
         align-content: flex-start;
         padding: 3%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
+
     footer #socialmedia {
         margin-top: 0;
     }
 
     .contact-grid {
-        margin-left: 30%;
-        margin-right: auto;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 
     #route-grid {
