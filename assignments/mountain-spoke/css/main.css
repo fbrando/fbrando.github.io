@@ -210,7 +210,7 @@ table {
 }
 
 .bike-info {
-    display:none;
+    display: none;
 }
 
 .bikes-grid {
@@ -221,7 +221,7 @@ div#contact {
     margin: 0;
 }
 
-#contact p{
+#contact p {
     font-size: 25px;
     margin: 0;
     padding: 5px;
@@ -229,7 +229,7 @@ div#contact {
 }
 
 #map {
-/*    margin-left: 20px;*/
+    /*    margin-left: 20px;*/
     height: 400px;
     margin-bottom: 75px;
     width: 100%;
@@ -268,7 +268,17 @@ footer p {
     color: #4d4d4d;
     font-size: 16px;
     font-weight: 400;
+}
 
+#presentation {
+    width: 70%;
+    margin: auto;
+}
+
+#video {
+    width: 560px;
+    height: 315px;
+    margin: auto;
 }
 
 footer {
@@ -359,7 +369,8 @@ form legend {
     padding: 0 .5rem;
 }
 
-form label, form div {
+form label,
+form div {
     display: block;
     padding-top: 1rem;
 }
@@ -382,7 +393,8 @@ textarea {
 }
 
 
-form label input, form label select {
+form label input,
+form label select {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
@@ -392,7 +404,7 @@ form label input, form label select {
     color: #555;
     width: 100%;
     max-width: 25rem;
-/*    background-color: rgba(0,0,0,.05);*/
+    /*    background-color: rgba(0,0,0,.05);*/
 }
 
 form label.sbs {
@@ -419,7 +431,7 @@ form label input {
 
 form label input:required {
     border-left: #d4413d solid 6px;
-/*    background-color: rgba(255,173,0,0.9);*/
+    /*    background-color: rgba(255,173,0,0.9);*/
 }
 
 form label input:required:valid {
@@ -441,6 +453,7 @@ input[type=date]::-webkit-outer-spin-button {
 #thanks {
     margin: 50px;
 }
+
 .thanks {
     text-align: center;
     padding-left: 0;
