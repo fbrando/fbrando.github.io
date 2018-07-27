@@ -54,5 +54,28 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .contact-grid {
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 2%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    #event-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-around;
+        margin: auto;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+/*
+    #contact-form {
+        grid-column: 2;
+        grid-row: 1/2;
+    }
+*/
 
 }

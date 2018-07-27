@@ -40,4 +40,15 @@
         margin-top: 0;
     }
 
+    .contact-grid {
+        margin-left: 30%;
+        margin-right: auto;
+    }
+
+    #route-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
 }
